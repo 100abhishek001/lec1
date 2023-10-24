@@ -9,7 +9,7 @@ int main()
     switch (choice)
     {
         case 1:
-            printf("Thanks for playing\nHere are rulls\n");
+            printf("Thanks for playing\nHere are rules\n");
             printf("You will get three chances to choose a number and if you choose LUCKY number\nthen you will be announced as a winner");
             printf("\nLets start the game\nEnter first number = ");
             scanf("%d",&first);
@@ -34,7 +34,7 @@ int main()
                             switch (third)
                             {
                                 case 7:
-                                    printf("Congratulation you have choose LUCKY number\nYou won a prize of $50,000 :)\n");
+                                    printf("Congratulation you have choosen a LUCKY number\nYou won a prize of #$50,000 :) #Enjoy\n");
                                     break;
                             
                                 default:
